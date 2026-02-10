@@ -42,6 +42,27 @@ body {
     height: auto;
    }
    
+   .calculator-img{
+    width: 110px;
+    height:auto;
+   }
+
+   .CatScience-img{
+    width:120px;
+    height:auto;
+   }
+
+   .CatEnglish-img{
+    width:130px;
+    height:auto;
+   }
+
+   .CatLaptop-img{
+    width:130px;
+    height:auto;
+   }
+
+
 
    
 
