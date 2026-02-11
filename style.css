@@ -1,5 +1,5 @@
 body {
-      background-color: rgb(252, 205, 228);
+      background-color: rgb(252, 174, 212);;
       font-family: 'Quicksand', sans-serif;
   }
 
@@ -81,6 +81,17 @@ body {
    nav a:hover{
     background-color: rgb(241, 156, 229) ;
    }
+
+   main{
+    background-color:  rgb(252, 205, 228);
+   }
+
+   nav{
+    background-color:rgb(252, 205, 228);
+   }
+   
+ 
+
 
 
 
