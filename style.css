@@ -67,6 +67,26 @@ body {
     height:auto;
    }
 
+   .CatPopcorn-img{
+    width:150px;
+    height:auto;
+   }
+
+   .CatTyping-img{
+    width:140px;
+    height:auto;
+   }
+
+   .CatsEating-img{
+    width:140px;
+    height:auto;
+   }
+   
+   .CatsBowl-img{
+    width:150px;
+    height:auto;
+   }
+
 
    nav a{
     display: inline-block;
@@ -87,6 +107,10 @@ body {
    }
 
    nav{
+    background-color:rgb(252, 205, 228);
+   }
+
+   footer{
     background-color:rgb(252, 205, 228);
    }
    
