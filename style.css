@@ -87,6 +87,15 @@ body {
     height:auto;
    }
 
+   .cat{
+    padding: 20px;
+   }
+
+   .info{
+    padding: 20px;
+   }
+
+
 
    nav a{
     display: inline-block;
@@ -112,6 +121,7 @@ body {
 
    footer{
     background-color:rgb(252, 205, 228);
+    margin-top: 20px;
    }
    
  
