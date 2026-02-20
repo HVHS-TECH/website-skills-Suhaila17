@@ -95,6 +95,13 @@ body {
     padding: 20px;
    }
 
+   .Subjects{
+    padding: 20px;
+   }
+
+   .link{
+    padding: 20px;
+   }
 
 
    nav a{
@@ -121,8 +128,10 @@ body {
 
    footer{
     background-color:rgb(252, 205, 228);
-    margin-top: 20px;
+    margin-top: 10px;
    }
+
+  
    
  
 
