@@ -114,15 +114,19 @@ body {
     margin-top: 10px;
    }
 
-   .container {
+   .containor {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding:20px;
    }
 
-   .container div {
-    background-color: ;
+   .containor div {
+    background-color:rgb(252, 174, 212);
+    border: 2px black;
+    padding: 20px;
+    text-align: center;
+    border border-radius: 15px;
    }
 
  
