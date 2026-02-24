@@ -67,26 +67,9 @@ body {
     height:auto;
    }
 
-   .CatPopcorn-img{
-    width:150px;
-    height:auto;
-   }
 
-   .CatTyping-img{
-    width:140px;
-    height:auto;
-   }
 
-   .CatsEating-img{
-    width:140px;
-    height:auto;
-   }
-   
-   .CatsBowl-img{
-    width:150px;
-    height:auto;
-   }
-
+  
    .cat{
     padding: 20px;
    }
@@ -131,13 +114,20 @@ body {
     margin-top: 10px;
    }
 
+   .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding:20px;
+   }
+
+   .container div {
+    background-color: ;
+   }
+
+ 
   
    
  
 
 
-
-
-   
-
-  
