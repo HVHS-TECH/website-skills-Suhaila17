@@ -1,6 +1,7 @@
 body {
-      background-color: rgb(252, 174, 212);;
+      background-color: #A3B18A;
       font-family: 'Quicksand', sans-serif;
+      color: #3A4A3F;
   }
 
   h1{
@@ -91,32 +92,67 @@ body {
     padding: 20px;
    }
 
+   .h1{
+     display: block;
+    padding: 10px 20px;
+    background-color: rgb(247, 186, 238);
+    color:black;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 550;
+    box-shadow: 0 8px 25px rgba(252, 120, 184, 0.99);
+    margin-inline-start: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+   }
+
+   .h2{
+      display: block;
+    padding: 10px 20px;
+    background-color: rgb(247, 186, 238);
+    color:black;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 550;
+    box-shadow: 0 8px 25px rgba(252, 120, 184, 0.99);
+    margin-inline-start: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+   }
+
 
    nav a{
     display: inline-block;
     padding: 10px 20px;
-    background-color: rgb(247, 186, 238);
-    color:black;
+    background-color:  #EAE2D6;
+    color: #3A4A3F;
     border-radius: 15px;
     text-decoration: none;
     font-weight: 550;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 25px rgba(252, 120, 184, 0.99);
+    margin-inline-start: 10px;
 
    }
 
    nav a:hover{
-    background-color: rgb(241, 156, 229) ;
+    background-color:  #8A9A7B ;
    }
 
    main{
     background-color:  rgb(252, 205, 228);
+    padding-top: 25px;
+    padding: 25px;
    }
 
    nav{
-    background-color:rgb(252, 205, 228);
+    background-color:#EAE2D6;
     padding: 10px;
     margin-bottom: 25px;
-      box-shadow: rgba(0, 0, 0, 0.15) 0px 22px 70px 4px;
+    box-shadow: 0 8px 25px rgba(252, 120, 184, 0.99);
    }
 
    footer{
@@ -129,7 +165,7 @@ body {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     padding:20px;
-    box-shadow: 0 8px 25px rgb(252, 174, 212);;
+    box-shadow: 0 8px 25px rgba(252, 120, 184, 0.99);
    }
 
    .container div {
@@ -138,8 +174,9 @@ body {
     padding: 20px;
     text-align: center;
     border-radius: 15px;
-
    }
+
+   
 
    .container2{
     display: grid;
@@ -147,11 +184,12 @@ body {
     grid-auto-rows:120px ;
     gap: 20px;
     padding: 20px;
-    background-color:rgb(252, 174, 212) ;
+    background-color: rgb(252, 205, 228);
+    box-shadow: 0 8px 25px rgba(252, 120, 184, 0.99);
    }
 
    .container2 .box{
-    background-color: rgb(252, 205, 228);
+    background-color:rgb(252, 174, 212) ;
     border: 3px black;
     display: flex;
     justify-content: center;
@@ -164,7 +202,7 @@ body {
 
    .container2 .long{
     grid-row: span 2;
-    background-color: rgb(252, 205, 228);
+    background-color:rgb(252, 174, 212) ;
     border: 3px black;
     display: flex;
     justify-content: center;
@@ -176,7 +214,7 @@ body {
 
    .container2 .wide{
     grid-column: span 2;
-    background-color: rgb(252, 205, 228);
+    background-color:rgb(252, 174, 212) ;
     border: 3px black;
     display: flex;
     justify-content: center;
