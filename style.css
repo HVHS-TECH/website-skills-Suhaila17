@@ -1,12 +1,13 @@
 body {
-      background-color: #A3B18A;
+      background-color: #3A4A3F; ;
       font-family: 'Quicksand', sans-serif;
-      color: #3A4A3F;
+      color: #EAE2D6;
   }
 
   h1{
-    font-size: 36px;
+    font-size: 42px;
     font-weight: 600;
+    letter-spacing: 1px;
   }
 
   h2{
@@ -14,13 +15,12 @@ body {
   }
 
   h3{
-    font-weight: 500;
+    font-weight: 400;
   }
 
   p{
     font-size: 18px;
     line-height: 1.6;
-    font-weight: 400;
   }
 
   .cat-img{
@@ -73,7 +73,9 @@ body {
     height:auto;
    }
 
-
+   .info .cat .subjects .link{
+    margin-bottom: 50px;
+   }
 
   
    .cat{
@@ -95,8 +97,8 @@ body {
    .h1{
      display: block;
     padding: 10px 20px;
-    background-color: rgb(247, 186, 238);
-    color:black;
+    background-color:  #D6C6AD;
+    color: #3A4A3F;
     border-radius: 25px;
     text-decoration: none;
     font-weight: 550;
@@ -111,8 +113,8 @@ body {
    .h2{
       display: block;
     padding: 10px 20px;
-    background-color: rgb(247, 186, 238);
-    color:black;
+    background-color:  #D6C6AD;
+    color: #3A4A3F;
     border-radius: 25px;
     text-decoration: none;
     font-weight: 550;
@@ -127,37 +129,45 @@ body {
 
    nav a{
     display: inline-block;
-    padding: 10px 20px;
-    background-color:  #EAE2D6;
-    color: #3A4A3F;
+    padding: 8px 18px;
+    background-color:  #4F5D4A;
+    color: #EAE2D6;
     border-radius: 15px;
     text-decoration: none;
     font-weight: 550;
     box-shadow: 0 8px 25px rgba(252, 120, 184, 0.99);
     margin-inline-start: 10px;
+    margin: 0 20px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
 
    }
 
    nav a:hover{
-    background-color:  #8A9A7B ;
+    background-color: #D6C6AD ;
+    color:#3A4A3F;
    }
 
    main{
-    background-color:  rgb(252, 205, 228);
-    padding-top: 25px;
-    padding: 25px;
+    background-color: #EAE2D6;
+    padding: 60px 40px;
+    color: #3A4A3F;
    }
 
    nav{
-    background-color:#EAE2D6;
+    background-color:#3A4A3F;
     padding: 10px;
-    margin-bottom: 25px;
+    margin: 0 25px;
     box-shadow: 0 8px 25px rgba(252, 120, 184, 0.99);
+    text-align: center;
+    border-bottom: 1px solid #4F5D4A;
    }
 
    footer{
-    background-color:rgb(252, 205, 228);
+    background-color:#6B705C;
     margin-top: 10px;
+    color: white;
+    text-align: center;
    }
 
    .container {
@@ -166,14 +176,16 @@ body {
     gap: 20px;
     padding:20px;
     box-shadow: 0 8px 25px rgba(252, 120, 184, 0.99);
+    background-color: #EAE2D6;
    }
 
    .container div {
-    background-color:rgb(252, 174, 212);
+    background-color:#D6C6AD;
     border: 2px black;
     padding: 20px;
     text-align: center;
     border-radius: 15px;
+    color: #3A4A3F;
    }
 
    
@@ -186,10 +198,11 @@ body {
     padding: 20px;
     background-color: rgb(252, 205, 228);
     box-shadow: 0 8px 25px rgba(252, 120, 184, 0.99);
+    background-color: #EAE2D6;
    }
 
    .container2 .box{
-    background-color:rgb(252, 174, 212) ;
+    background-color:#D6C6AD ;
     border: 3px black;
     display: flex;
     justify-content: center;
@@ -197,12 +210,12 @@ body {
     font-weight: 600px;
     font-size: 20px;
     border-radius: 15px;
-
+    color: #3A4A3F;
    }
 
    .container2 .long{
     grid-row: span 2;
-    background-color:rgb(252, 174, 212) ;
+    background-color:#D6C6AD;
     border: 3px black;
     display: flex;
     justify-content: center;
@@ -210,11 +223,12 @@ body {
     font-weight: 600px;
     font-size: 20px;
     border-radius: 15px;
+    color: #3A4A3F;
    }
 
    .container2 .wide{
     grid-column: span 2;
-    background-color:rgb(252, 174, 212) ;
+    background-color:#D6C6AD ;
     border: 3px black;
     display: flex;
     justify-content: center;
@@ -222,6 +236,7 @@ body {
     font-weight: 600px;
     font-size: 20px;
     border-radius: 15px;
+    color: #3A4A3F;
    }
 
   
